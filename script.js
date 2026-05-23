@@ -460,7 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'images/For Portfolio/04.jpg',
             'images/For Portfolio/05.JPG',
             'images/For Portfolio/06.jpg',
-            'images/For Portfolio/07.jpg',
+            'images/For Portfolio/07.JPG',
             'images/For Portfolio/08.JPG',
             'images/For Portfolio/09.JPG',
             'images/For Portfolio/10.JPG',
