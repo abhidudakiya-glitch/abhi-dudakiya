@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // For example: custom video player controls, form validation, etc.
 
 // --- Skills Interactive Showcase & Video Play Logic ---
-/* // --- Disable Inspect Shortcuts ---
+ // --- Disable Inspect Shortcuts ---
 document.addEventListener('contextmenu', event => event.preventDefault());
 
 document.onkeydown = function (e) {
