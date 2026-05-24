@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dudakiya Abhi S. | Visual Storyteller</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Cinematic & Technical Background Pattern for Visual Storyteller */
+        body {
+            /* Deep cinematic dark background */
+            background-color: #0b0c10;
+            color: #e2e8f0;
+
+            /* 1. Subtle top-center glow (studio lighting vibe)
+               2. Camera, Laptop, and PC pattern for visual storyteller vibe */
+            background-image:
+                radial-gradient(circle at 50% 0%, rgba(65, 105, 225, 0.15) 0%, transparent 60%),
+                url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='rgba(255, 255, 255, 0.05)' stroke-width='1.5' stroke-linejoin='round' stroke-linecap='round'%3E%3C!-- Camera 1 --%3E%3Cpath d='M15,25 h6 l2,-3 h6 l2,3 h6 v15 h-22 z' /%3E%3Ccircle cx='26' cy='32' r='4' /%3E%3Ccircle cx='33' cy='27' r='1' /%3E%3C!-- Laptop --%3E%3Crect x='70' y='20' width='24' height='14' rx='1' /%3E%3Cpath d='M66,36 h32 v2 h-32 z' /%3E%3Cpath d='M80,36 v-2' /%3E%3C!-- PC Monitor --%3E%3Crect x='20' y='70' width='28' height='18' rx='1' /%3E%3Cpath d='M34,88 v6' /%3E%3Cpath d='M26,94 h16 v2 h-16 z' /%3E%3C!-- Video Camera --%3E%3Cpath d='M75,75 h14 v12 h-14 z' /%3E%3Cpath d='M89,78 l8,-4 v14 l-8,-4' /%3E%3Ccircle cx='80' cy='81' r='3' /%3E%3C/g%3E%3C/svg%3E");
+            background-size: 100% 100vh, 120px 120px;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">Dudakiya Abhi S.</a>
+        <div class="menu-toggle" id="mobile-menu">
+            <svg class="menu-icon-bars" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <svg class="menu-icon-close" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">Projects</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <span class="experience-badge">4+ Years of Experience</span>
+            </div>
+
+            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                Dudakiya Abhi S.
+            </h1>
+
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <span style="font-weight: 800;">Visual Storyteller & Creative Designer</span><br>
+                I transform raw footage into high-impact visual stories. Dedicated to pursuing a creative career in
+                graphic design and video editing.
+            </h2>
+
+            <div class="roles" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <span class="role-tag">Video Editor</span>
+                <span class="role-tag">Photo Editor</span>
+                <span class="role-tag">Graphic Designer</span>
+            </div>
+
+            
+        </div>
+
+        <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600">
+            <!-- Replace this src URL with your actual photo path, e.g., "images/my-photo.jpg" -->
+            <img src="images/person.jpg" alt="Dudakiya Abhi S." class="profile-img">
+        </div>
+    </section>
+
+    <!-- Partners / Tools Logo Loop Section -->
+    <section class="partners-section" data-aos="fade-up" data-aos-delay="200">
+        <div class="logoloop logoloop--horizontal logoloop--fade logoloop--scale-hover" id="logo-loop-container"
+            aria-label="Tools and Partners">
+            <div class="logoloop__track" id="logo-loop-track">
+                <ul class="logoloop__list" role="list">
+                    <li class="logoloop__item"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg"
+                            alt="Adobe Premiere Pro"></li>
+                    <li class="logoloop__item"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg"
+                            alt="Adobe After Effects"></li>
+                    <li class="logoloop__item"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
+                            alt="Adobe Photoshop"></li>
+                    <li class="logoloop__item"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg"
+                            alt="Adobe Illustrator"></li>
+                    <li class="logoloop__item"><img
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                            alt="GitHub" style="filter: invert(1);"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div data-aos="fade-up">
+            <h2 class="section-title">Objective & About Me</h2>
+            <p class="about-text">
+                To pursue a career in the field of graphic design and video editing, be a part of an ambitious team, and
+                work on challenging missions and complex tasks. I strive to bring a strong sense of teamwork, driving
+                potential growth and development.
+            </p>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <h2 class="section-title" data-aos="fade-up">Experience & Education</h2>
+        <div class="timeline-grid">
+
+            <!-- Work Experience Column -->
+            <div class="timeline-col" data-aos="fade-right">
+                <h3><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+
+                <div class="timeline-card">
+                    <span class="date">2026 - Present</span>
+                    <h4>Video Editor</h4>
+                    <p>Square Frame Picture</p>
+                </div>
+
+                <div class="timeline-card">
+                    <span class="date">2025 - 2026</span>
+                    <h4>Video Editor</h4>
+                    <p>Dashrath Silver Arts Pvt. Ltd</p>
+                </div>
+
+                <div class="timeline-card">
+                    <span class="date">2022 - 2024</span>
+                    <h4>Graphic Designer & Photo Editor</h4>
+                    <p>True Design</p>
+                </div>
+            </div>
+
+            <!-- Education Column -->
+            <div class="timeline-col" data-aos="fade-left">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+
+                <div class="timeline-card">
+                    <span class="date">2025</span>
+                    <h4>Certificate in Video Editing</h4>
+                    <p>Arena Animation, Rajkot</p>
+                </div>
+
+                <div class="timeline-card">
+                    <span class="date">2022</span>
+                    <h4>BCA (Graduation)</h4>
+                    <p>Atmiya University, Rajkot</p>
+                </div>
+
+                <div class="timeline-card">
+                    <span class="date">2018</span>
+                    <h4>12th Grade (High School)</h4>
+                    <p>Bhushan High School, Rajkot</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="section-title" data-aos="fade-up">Skills & Expertise</h2>
+        <div class="skills-wrapper" data-aos="fade-up" data-aos-delay="100">
+
+            <!-- Software Proficiency -->
+            <div class="skill-group">
+                <h3>Software Proficiency</h3>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg"
+                                class="icon-img" alt="PS"> Adobe Photoshop CS6</span><span>8/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%" data-aos="fade-right"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg"
+                                class="icon-img" alt="Pr"> Adobe Premiere Pro</span><span>8/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%" data-aos="fade-right" data-aos-delay="100"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg"
+                                class="icon-img" alt="Ae"> Adobe After Effects</span><span>8/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%" data-aos="fade-right" data-aos-delay="200"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg"
+                                class="icon-img" alt="Ai"> Adobe Illustrator</span><span>5/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 50%" data-aos="fade-right" data-aos-delay="300"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><img
+                                src="https://commons.wikimedia.org/wiki/Special:FilePath/CorelDraw_logo.svg"
+                                class="icon-img" alt="Corel"> Corel Draw</span><span>7/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%" data-aos="fade-right" data-aos-delay="400"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Specialities -->
+            <div class="skill-group">
+                <h3>Specialties</h3>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><i class="fa-solid fa-camera-retro"
+                                style="color: #ff6b6b;"></i> Photo Editing & Designing</span><span>9/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%" data-aos="fade-right"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><i class="fa-solid fa-film"
+                                style="color: #4facfe;"></i> Video Editing</span><span>8/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%" data-aos="fade-right" data-aos-delay="100"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><i class="fa-solid fa-wand-magic-sparkles"
+                                style="color: #a18cd1;"></i> Motion Designing</span><span>7/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%" data-aos="fade-right" data-aos-delay="200"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><i class="fa-solid fa-envelope-open-text"
+                                style="color: #fbc2eb;"></i> Stationary Design</span><span>7/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%" data-aos="fade-right" data-aos-delay="300"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><i class="fa-solid fa-images"
+                                style="color: #43e97b;"></i> Post Designing</span><span>6.5/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 65%" data-aos="fade-right" data-aos-delay="400"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OS & Personal Skills -->
+            <div class="skill-group full-width">
+                <h3>OS & Personal Skills</h3>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><i class="fa-solid fa-users"
+                                style="color: #38f9d7;"></i> Team Work</span><span>8.5/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%" data-aos="fade-right"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows8/windows8-original.svg"
+                                class="icon-img" alt="Win"> Windows 10 & 11</span><span>8.5/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%" data-aos="fade-right" data-aos-delay="100"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><i class="fa-solid fa-lightbulb"
+                                style="color: #f6d365;"></i> Creative Ideas</span><span>7/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%" data-aos="fade-right" data-aos-delay="200"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span class="skill-name"><i class="fa-solid fa-comments"
+                                style="color: #ff0844;"></i> Communication</span><span>7/10</span></div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%" data-aos="fade-right" data-aos-delay="300"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="work" class="work-section">
+        <h2 class="section-title" data-aos="fade-up">Projects</h2>
+        <div class="works-split">
+
+            <!-- Horizontal Videos Column -->
+            <div class="works-col">
+                <h3 class="works-col-title" data-aos="fade-up">Horizontal Videos</h3>
+                <div class="video-grid-col horizontal-grid">
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos1/1.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+                        <video src="videos1/2.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+                        <video src="videos1/3.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos1/4.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+                    </div>
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+                        <video src="videos1/5.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+                    </div>
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="100"> 
+                        <video src="videos1/6.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+                    </div>
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+                        <video src="videos1/7.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+                    </div>
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos1/8.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+                    </div>
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+                        <video src="videos1/9.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vertical Videos Column -->
+            <div class="works-col">
+                <h3 class="works-col-title" data-aos="fade-up">Vertical Videos</h3>
+                <div class="video-grid-col vertical-grid">
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/1.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/2.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/3.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/4.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/5.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/6.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/7.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/8.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                    <div class="video-card vertical" data-aos="fade-up" data-aos-delay="100">
+                        <video src="videos/9.mp4" autoplay muted loop playsinline disablePictureInPicture
+                            disableRemotePlayback class="work-video"></video>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-container" data-aos="fade-up" data-aos-delay="100">
+            <p class="contact-desc">Have a project in mind or want to collaborate? Let's talk about it.</p>
+            <div class="contact-grid">
+                <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit"
+                    method="POST">
+                    <!-- Replace YOUR_ACCESS_KEY_HERE with your actual Web3Forms access key -->
+                    <input type="hidden" name="access_key" value="ef190bd4-2abb-44d1-8d9e-4862b33c5bfa">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="tel" name="Phone" placeholder="Your Phone Number" required>
+                    <textarea name="Message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>               
+                <div class="contact-map">
+                    <!-- You can swap the src link out anytime with a new Google Maps Embed link -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3691.3237916660664!2d70.81217207599374!3d22.30359094277481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDE4JzEyLjkiTiA3MMKwNDgnNTMuMSJF!5e0!3m2!1sen!2sin!4v1778254095605!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0; border-radius: 8px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="social-container" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <a href="mailto:abhidudakiyaskau@gmail.com" class="social-icon" title="Email Me"><i
+                        class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+917016797196" class="social-icon" title="Call Me"><i class="fa-solid fa-phone"></i></a>
+                <a href="https://wa.me/917016797196" target="_blank" class="social-icon" title="WhatsApp"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/dudakiyaabhi/?utm_source=ig_web_button_share_sheet" target="_blank"
+                    class="social-icon" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/abhidudakiya" target="_blank" class="social-icon"
+                    title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Dudakiya Abhi S. All rights reserved.</p>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-layout">
+                <div class="modal-video-container">
+                    <video id="modal-video" controls autoplay></video>
+                </div>
+                <div class="modal-info">
+                    <h3 id="modal-title">Project Title</h3>
+                    <p id="modal-description">Project description goes here...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fullscreen Video Modal -->
+    <div id="fs-video-modal" class="modal fs-video-modal">
+        <div class="fs-modal-content">
+            <button class="close-fs-modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="fs-video-wrapper">
+                <video id="fs-modal-video" controls autoplay playsinline></video>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
